@@ -6,6 +6,7 @@ import './App.css';
 import { PersistGate } from 'redux-persist/integration/react';
 import styled from 'styled-components';
 import colors from 'style/colors';
+import Stave from 'library/music/Stave';
 
 const Page = styled.div`
   position: absolute;
@@ -55,7 +56,10 @@ class App extends Component {
                 <Title>AMADEUS</Title>
               </LeftNav>
               <MainContainer>
-                <Main>main</Main>
+                <Main>
+                  hi
+                  <Stave />
+                </Main>
               </MainContainer>
             </Body>
           </Page>
